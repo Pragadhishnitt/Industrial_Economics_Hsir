@@ -8,6 +8,7 @@ We employed the StockNet dataset, sourced from GitHub, which consisted of raw da
 
 **Training Data Size:**
 The training dataset comprised 38,000 sentences extracted from the StockNet dataset.
+You can download the dataset from this [link](https://github.com/yumoxu/stocknet-dataset)
 
 **Models Evaluated:**
 Our analysis involved evaluating the performance of seven distinct models:
@@ -35,7 +36,7 @@ To replicate our analysis, the following software versions were utilized:
 
 **Instructions for Replication:**
 
-    Download the StockNet dataset from the provided [GitHub](https://github.com/yumoxu/stocknet-dataset) repository.
+    Download the StockNet dataset from the provided GitHub repository.
     Preprocess the dataset and assign sentiment scores using the Vader Sentiment Intensity Analyzer.
     Implement and train the selected models using the processed dataset.
     Evaluate the performance of each model based on accuracy metrics.
